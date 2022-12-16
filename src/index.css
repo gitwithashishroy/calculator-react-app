@@ -18,6 +18,8 @@ body{
   align-items: center;
 }
 
+
+ /* calculator container */
 .container{
   margin: auto;
   margin-top: 10vh;
@@ -51,6 +53,7 @@ input[type="text"]{
 }
 
 
+/* every button  */
 .key button{
    padding: 25px;
    font-size: 30px ;
@@ -60,10 +63,14 @@ input[type="text"]{
    cursor: pointer;
 }
 
+
+/* button hover  */
 button:hover{
   background-color: lightgreen;
 }
 
+
+/* highlighted expression */
 .highlight{
   background-color: lightcyan;
 }

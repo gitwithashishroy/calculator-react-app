@@ -1,6 +1,7 @@
 import React , { useState } from "react";
 
 function App() {
+
    const [result, setResult] = useState('567') ; 
 
    const handleClick = (e)=>{
@@ -23,7 +24,6 @@ function App() {
   }
    
   const backspace = ()=>{
-    // setResult("") ; 
     const res =  result.slice(0 , -1) ; 
     setResult(res) ; 
   }
