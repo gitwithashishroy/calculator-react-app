@@ -2,7 +2,7 @@ import React , { useState } from "react";
 
 function App() {
 
-   const [result, setResult] = useState('567') ; 
+   const [result, setResult] = useState('') ; 
 
    const handleClick = (e)=>{
        setResult(result.concat(e.target.name)) ; 
